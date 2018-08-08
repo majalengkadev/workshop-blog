@@ -1,7 +1,7 @@
 <?php
 
 // server name - username - password - database name
-$conn = mysqli_connect('localhost','root','','myblog');
+$mysqli = mysqli_connect('localhost','root','','myblog');
 
 //Cek Error atau tidak
 if(mysqli_connect_errno()){

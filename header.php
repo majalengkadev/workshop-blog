@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title>Workshop Blog</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.php">My Blog</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -40,9 +40,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.php">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post.php">Sample Post</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>

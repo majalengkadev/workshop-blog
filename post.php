@@ -2,7 +2,7 @@
 
 include_once('config.php');
 $id = $_GET['id'];
-$data = mysqli_query($conn,'SELECT * FROM posts WHERE id = '. $id);
+$data = mysqli_query($mysqli,'SELECT * FROM posts WHERE id = '. $id);
 $post = mysqli_fetch_assoc($data);
 
 $judul = $post['judul'];

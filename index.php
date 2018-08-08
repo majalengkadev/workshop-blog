@@ -2,12 +2,12 @@
 
 include_once('config.php');
 
-$data = mysqli_query($conn,'SELECT * FROM posts');
+$data = mysqli_query($mysqli,'SELECT * FROM posts ORDER BY id DESC');
 
 $posts = mysqli_fetch_all($data, MYSQLI_ASSOC);
 
-$judul = "Clean Blog";
-$subjudul = "A Blog Theme by Start Bootstrap";
+$judul = "Welcome To My Blog";
+$subjudul = "A Simple Blog With Native PHP";
 $url_banner = "assets/img/home-bg.jpg"; ?>
 
 <?php include('header.php'); ?>
@@ -23,9 +23,8 @@ $url_banner = "assets/img/home-bg.jpg"; ?>
                 <?php echo $post['judul']; ?>
               </h2>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">Mahfudin</a>
-              on September 24, 2018</p>
+            <p class="post-meta">Diposting Oleh
+              <a href="#">Mahfudin</a></p>
               <h3><?php echo substr($post['konten'],0, 30) . ' . . .';  ?> </h3>
           </div>
           <hr>
